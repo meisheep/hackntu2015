@@ -10,6 +10,14 @@
     margin-left: 36px;
 }
 
+.ui.tabular.menu .item {
+    color: #f9f9f9;
+}
+
+.ui.tabular.menu .item:hover {
+    color: #f9f9f9;
+}
+
 #search {
     height: 640px;
     text-align: center;
