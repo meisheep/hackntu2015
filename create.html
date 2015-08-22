@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="ui attached stackable menu inverted">
+        <div class="item">
+            <a href="index.html">
+                <img height="24" src="assets/img/logo-w.png">
+            </a>
+        </div>
+        <div class="right menu">
+            <a class="ui item">
+                新增評論
+            </a>
+        </div>
+    </div>
+
+    <div id="create" class="ui container">
+        <form class="ui form">
+            <div class="field">
+                <label>公司名稱</label>
+                <input type="text" name="company" placeholder="公司名稱">
+            </div>
+            <div class="field">
+                <label>職稱</label>
+                <input type="text" name="last-name" placeholder="職稱">
+            </div>
+            <div class="field">
+                <label>公司自由度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="field">
+                <label>人才培育度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="field">
+                <label>升遷制度滿意度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="field">
+                <label>工作氣氛滿意度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="field">
+                <label>企業法律遵循度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="field">
+                <label>薪資福利滿意度</label>
+                <div class="ui massive star rating" data-rating="0" data-max-rating="5"></div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>每週工作時數</label>
+                    <input type="text" name="work-week" placeholder="">
+                </div>
+                <div class="field">
+                    <label>每週加班時數</label>
+                    <input type="text" name="extra-week" placeholder="">
+                </div>
+            </div>
+            <div class="field">
+                <label>對公司優點評論</label>
+                <textarea rows="2"></textarea>
+            </div>
+            <div class="field">
+                <label>對公司缺點評論</label>
+                <textarea rows="2"></textarea>
+            </div>
+            <div class="inline field">
+                <div class="ui toggle checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden">
+                    <label>首次就職</label>
+                </div>
+            </div>
+            <div class="inline fields">
+                <label for="quit">在職狀況</label>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="quit" checked="" tabindex="0" class="hidden">
+                        <label>在職</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="quit" tabindex="0" class="hidden">
+                        <label>離職</label>
+                    </div>
+                </div>
+            </div>
+            <div class="inline fields">
+                <label for="seniority">在職年度</label>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="seniority" checked="" tabindex="0" class="hidden">
+                        <label>未滿一年</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="seniority" tabindex="0" class="hidden">
+                        <label>一～三年</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="seniority" tabindex="0" class="hidden">
+                        <label>三～五年</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="seniority" tabindex="0" class="hidden">
+                        <label>五～十年</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="seniority" tabindex="0" class="hidden">
+                        <label>十年以上</label>
+                    </div>
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>到職年度</label>
+                    <input type="text" name="from" placeholder="20xx">
+                </div>
+                <div class="field">
+                    <label>離職年度</label>
+                    <input type="text" name="to" placeholder="20xx">
+                </div>
+            </div>
+            <div class="inline fields">
+                <label for="gender">性別</label>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="gender" checked="" tabindex="0" class="hidden">
+                        <label>男生</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="gender" tabindex="0" class="hidden">
+                        <label>女生</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="gender" tabindex="0" class="hidden">
+                        <label>其他</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui segment">
+                <div class="header">使用本服務之注意事項</div>
+                <ol class="ui list">
+                    <li>
+                        隱私權
+                        <div class="content">
+                            為使您能安心填寫本評比， Detective J承諾依中華民國個人資料保護法並採行高密度之隱私權政策，除因涉及犯罪或依法律規定外，您所填寫的評論將向包括對受評公司在內之第三人絕對保密。
+                        </div>
+                    </li>
+                    <li>
+                        評比公正性之維護
+                        <div class="content">
+                            為保持Detective J內容之公正，Detective J如發現會員有大量重複註冊、洗文章等帳號異常情形者，將保留停止服務之權利。
+                        </div>
+                    </li>
+                    <li>
+                        匿名與法律責任
+                        <div class="content">
+                            Detective J提醒您，雖然評比之匿名性受Detective J隱私權政策保障，不代表會員之違法行為將因而免除刑事及民事之責任，請務必基於客觀真實之觀點填寫本評比。
+                        </div>
+                    </li>
+                    <li>
+                        警示系統
+                        <div class="content">
+                            Detective J支持及保護每個員工讚揚好老闆、告發慣老闆的權利，為保護您的權益，當系統偵測到評比之內容有使會員受刑事或民事訴訟可能時，將提供警示，當警示出現時，請您確認內容符合真實並避免謾罵及不雅用詞，再行投稿。
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="field">
+                <div class="ui checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden">
+                    <label>我同意服務條款及隱私權聲明</label>
+                </div>
+            </div>
+            <button class="ui button" type="submit">提交</button>
+        </form>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
