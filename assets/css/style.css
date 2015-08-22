@@ -1,0 +1,88 @@
+.ui.inverted.menu .item:before, .ui.vertical.inverted.menu .item:before {
+    background: transparent;
+}
+
+.ui.inverted.menu {
+    background-color: #0077BB;
+}
+
+.ui.inverted.menu .item a img{
+    margin-left: 36px;
+}
+
+#search {
+    height: 640px;
+    text-align: center;
+    padding: 0;
+    background: url('../img/search-bg.jpg') center no-repeat;
+    width: 100%;
+    overflow: hidden;
+}
+
+#search .inner {
+    width: 64%;
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 20px 80px 40px 80px;
+    background-color: rgba(0,0,0,0.42);
+}
+
+#search .inner h2 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#search .tabular.menu {
+    border: 0;
+}
+
+#search .tab.segment {
+    border: 0;
+    padding: 0;
+}
+
+#search input {
+    border-radius: 0;
+}
+
+.ribbon {
+    text-align: center;
+    height: 144px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#list {
+    margin: 40px 60px;
+}
+
+#list .item:hover {
+    background-color: rgba(0,0,0,.03);
+}
+
+#company {
+    margin: 40px 60px;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+}
+
+#company .items {
+    margin: 0;
+}
+
+#radar {
+    margin: 0 50px;
+}
+
+#review {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#create {
+    margin: 40px 60px;
+}

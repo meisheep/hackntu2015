@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="ui attached stackable menu inverted">
+        <div class="item">
+            <a href="index.html">
+                <img height="24" src="assets/img/logo-w.png">
+            </a>
+        </div>
+        <div class="right menu">
+            <a class="ui item">
+                新增評論
+            </a>
+        </div>
+    </div>
+
+    <div id="company" class="ui container">
+        <div class="ui items">
+            <div class="item">
+                <div class="image">
+                    <img src="assets/img/image.png">
+                </div>
+                <div class="content">
+                    <a class="header">Mozilla</a>
+                    <div class="meta">
+                        <span>Mozilla Taiwan 美商謀智台灣分公司由Mozilla基金會所擁有，是一個全球化的非營利組織，其願景是打造一個更開放自由的網路未來，提升人們的網路經驗，並支持開放源碼的資源共享精神。</span>
+                    </div>
+                    <!-- <div class="description">
+                        <p>描述</p>
+                    </div>
+                    <div class="extra">
+                        Additional Details
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui container" style="margin-bottom: 30px;">
+        <div class="ui grid">
+            <div class="five wide column">
+                <canvas id="radar" width="270" height="270"></canvas>
+            </div>
+            <div class="five wide column">
+                <div class="ui dividing header">
+                    總評價：2.8
+                </div>
+                <div class="ui relaxed list">
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            工作自由度：1
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            人才培育：3
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            升遷制度：4
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            工作氣氛：3
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            企業道德：2
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="large angle right middle aligned icon"></i>
+                        <div class="content">
+                            薪資福利：4
+                        </div>
+                    </div>
+                </div>
+                <div class="ui label">
+                    每週工作時數
+                    <div class="detail">40</div>
+                </div>
+                <div class="ui label">
+                    每週加班時數
+                    <div class="detail">8</div>
+                </div>
+            </div>
+            <div class="six wide column">
+                <table class="ui celled striped table">
+                    <thead>
+                    <tr><th colspan="2">公司登記基本資料</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                公司名稱
+                            </td>
+                            <td>美商謀智股份有限公司</td>
+                        </tr>
+                        <tr>
+                            <td class="collapsing">
+                                地址
+                            </td>
+                            <td>臺北市信義區信義路5段106號4樓、5樓</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                資本額
+                            </td>
+                            <td>28,500,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="review" class="ui container">
+        <div class="ui huge dividing header">評論</div>
+        <div class="ui items divided">
+            <div class="item">
+                <div class="ui small image">
+                    <img src="assets/img/image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Arrowhead Valley Camp</div>
+                    <div class="meta">
+                    <span class="price">$1200</span>
+                    <span class="stay">1 Month</span>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="ui heart rating" data-max-rating="1"></div>
+            </div>
+            <div class="item">
+                <div class="ui small image">
+                    <img src="assets/img/image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Arrowhead Valley Camp</div>
+                    <div class="meta">
+                    <span class="price">$1200</span>
+                    <span class="stay">1 Month</span>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="ui heart rating" data-max-rating="1"></div>
+            </div>
+            <div class="item">
+                <div class="ui small image">
+                    <img src="assets/img/image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Arrowhead Valley Camp</div>
+                    <div class="meta">
+                    <span class="price">$1200</span>
+                    <span class="stay">1 Month</span>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="ui heart rating" data-max-rating="1"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="assets/js/Chart.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        $(function() {
+            var radarCanvas = document.getElementById('radar').getContext("2d");
+            var radarData = {
+                labels: ["工作自由度", "人才培育", "升遷制度", "工作氣氛", "企業道德", "薪資福利"],
+                datasets: [
+                    {
+                        label: "Radar",
+                        fillColor: "rgba(220,220,220,0.5)",
+                        strokeColor: "rgba(220,220,220,0.8)",
+                        highlightFill: "rgba(220,220,220,0.75)",
+                        highlightStroke: "rgba(220,220,220,1)",
+                        data: [1, 3, 4, 3, 2, 4]
+                    }
+                ]
+            };
+            var companyRadar = new Chart(radarCanvas).Radar(radarData, {
+                responsive: false,
+                pointDot:false,
+                scaleOverride: true,
+                scaleSteps: 1,
+                scaleStepWidth: 5,
+                scaleStartValue: 0
+            });
+        });
+    </script>
+</body>
+</html>

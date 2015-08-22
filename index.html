@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="ui attached stackable menu inverted">
+        <div class="item">
+            <a href="index.html">
+                <img height="24" src="assets/img/logo-w.png">
+            </a>
+        </div>
+        <div class="right menu">
+            <a href="create.html" class="ui item">
+                新增評論
+            </a>
+        </div>
+    </div>
+
+    <div id="search" class="ui container">
+        <div class="inner">
+            <h2>為你的工作打分數</h2>
+            <div class="ui top attached tabular menu">
+                <a class="item active" data-tab="company">公司名稱</a>
+                <a class="item" data-tab="job-title">職稱</a>
+            </div>
+            <div class="ui bottom attached active tab segment" data-tab="company">
+                <div class="ui form">
+                    <div class="field">
+                        <form action="company.html" method="GET">
+                            <input type="search" placeholder="公司名稱">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="job-title">
+                <div class="ui form">
+                    <div class="field">
+                        <form action="job-list.html" method="GET">
+                            <input type="search" placeholder="職稱">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon">
+        <div class="inner">
+            <h3></h3>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
